@@ -1,0 +1,23 @@
+show songs
+show users
+show playlists -u cindy
+show tracks
+show recordings
+show songs -u cindy -p help
+// Deleteing Dig it  present as track id 175, in cindy's help playlist and recording "Let it be"
+//delete -s 1174
+//show songs
+//show tracks
+//show songs -u cindy -p help
+//show recordings
+// Deleteing Track id 58  in cindy's help playlist
+delete -s 58 -p "help" -u cindy
+// Deleteing Track id 55  in cindy's help playlist
+delete -t 55 -p "help" -u cindy
+// Delete track 56
+delete -t 56 
+show songs -u cindy -p help
+delete -r 111
+delete -p help -u cindy
+delete -u cindy
+show users
